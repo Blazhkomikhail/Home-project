@@ -1,0 +1,26 @@
+.header-wrap {
+  width: 960px;
+  height: 30px;
+  border: 1px solid lightgrey;
+  border-bottom: 1px solid grey;
+  background: #FFFAFA;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.header-wrap .main-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  height: 30px;
+}
+.header-wrap .main-menu-button {
+  display: block;
+  text-decoration: none;
+  color: #696969;
+  box-sizing: border-box;
+  padding: 5px 10px;
+}
+.header-wrap .main-menu-button:hover {
+  border: 1px solid lightgrey;
+  border-bottom: none;
+}

@@ -4,7 +4,7 @@ var less = require('gulp-less');
 gulp.task('less', function() {
   gulp.src('./src/**/*.less')
       .pipe (less())
-      .pipe (gulp.dest('./src/'));
+      .pipe (gulp.dest('./dist/'));
 });
 
 gulp.task('less:watch', function() {
