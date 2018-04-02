@@ -1,26 +1,88 @@
-.header-wrap {
-  width: 960px;
-  height: 30px;
-  border: 1px solid lightgrey;
-  border-bottom: 1px solid grey;
-  background: #FFFAFA;
-  margin: 0 auto;
-  border-radius: 5px;
-}
-.header-wrap .main-nav {
+.main-nav {
   display: flex;
   justify-content: space-around;
   width: 60%;
-  height: 30px;
+  height: 35px;
 }
-.header-wrap .main-menu-button {
+.main-nav .main-menu-button {
   display: block;
   text-decoration: none;
   color: #696969;
   box-sizing: border-box;
-  padding: 5px 10px;
+  padding: 11px 10px;
+  font-size: 14px;
+  padding-top: 8px;
 }
-.header-wrap .main-menu-button:hover {
+.main-nav .main-menu-button .first-button {
+  font-size: 16px;
+  display: none;
+}
+.main-nav .main-menu-button:hover {
   border: 1px solid lightgrey;
   border-bottom: none;
+  box-sizing: border-box;
+}
+.main-nav .list-menu {
+  display: contents;
+}
+.main-nav .main-li {
+  list-style-type: none;
+}
+.header-wrap {
+  width: 960px;
+  height: 35px;
+  border: 1px solid lightgrey;
+  border-bottom: 1px solid grey;
+  background: linear-gradient(to top, #ccc, #fff);
+  margin: 10px auto;
+  border-radius: 5px;
+}
+.heading {
+  width: 960px;
+  background: #f2f2f2;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.heading-container {
+  width: 50%;
+  margin: 70px 0px;
+}
+.heading-button-wrap {
+  width: 50%;
+  padding: 10px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+.heading-button {
+  width: 65px;
+  height: 30px;
+  border-radius: 3px;
+  margin: 2px;
+}
+.heading-button .heading-btn-left {
+  color: #fff;
+  border: 1px solid #0099ff;
+  background: #0099ff;
+}
+.heading-button .heading-btn-right {
+  border: 1px solid grey;
+  color: #ccc;
+}
+.heading-title h1 {
+  text-align: center;
+  font: 40px "Lucida Sans Unicode";
+  letter-spacing: -2px;
+  color: #333333;
+}
+.heading-content {
+  margin: 10px;
+  text-align: center;
+}
+.heading-text {
+  color: #696969;
 }
