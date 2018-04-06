@@ -13,9 +13,9 @@
   font-size: 14px;
   padding-top: 8px;
 }
-.main-nav .main-menu-button .first-button {
+.main-nav .first-button {
   font-size: 16px;
-  display: none;
+  padding: 9px;
 }
 .main-nav .main-menu-button:hover {
   border: 1px solid lightgrey;
@@ -49,7 +49,7 @@
 }
 .heading-container {
   width: 50%;
-  margin: 70px 0px;
+  margin: 100px 0px;
 }
 .heading-button-wrap {
   width: 50%;
@@ -58,31 +58,91 @@
   display: flex;
   justify-content: center;
 }
-.heading-button {
+.heading-content {
+  margin: 10px;
+  text-align: center;
+}
+.basic-button {
   width: 65px;
   height: 30px;
   border-radius: 3px;
   margin: 2px;
 }
-.heading-button .heading-btn-left {
+.blue-button {
   color: #fff;
   border: 1px solid #0099ff;
   background: #0099ff;
 }
-.heading-button .heading-btn-right {
+.white-button {
   border: 1px solid grey;
-  color: #ccc;
+  color: #696969;
+  background: #fff;
 }
-.heading-title h1 {
+.text-h1 {
   text-align: center;
   font: 40px "Lucida Sans Unicode";
   letter-spacing: -2px;
   color: #333333;
 }
-.heading-content {
-  margin: 10px;
-  text-align: center;
+.text-h2 {
+  font: 30px "Lucida Sans Unicode";
+  letter-spacing: -2px;
+  color: #333333;
 }
-.heading-text {
+.text-h3 {
+  font: 20px "Lucida Sans Unicode";
+  letter-spacing: -2px;
+  color: #333333;
+}
+.text-content {
   color: #696969;
+}
+.heading-text-content {
+  font-size: 18px;
+}
+.news {
+  width: 960px;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.top-news {
+  display: flex;
+  justify-content: space-around;
+}
+.bottom-news {
+  display: flex;
+  justify-content: space-around;
+}
+.img-wrap-top-news {
+  width: 47%;
+  margin: 15px;
+  box-sizing: border-box;
+}
+.img-wrap-bottom-news {
+  width: 47%;
+  margin: 15px;
+  box-sizing: border-box;
+}
+.content-top-news {
+  width: 47%;
+  margin: 15px;
+  box-sizing: border-box;
+}
+.content-bottom-news {
+  width: 47%;
+  margin: 15px;
+  box-sizing: border-box;
+}
+.news-hr {
+  color: grey;
+}
+.h2-news {
+  margin-bottom: 15px;
+}
+.p-news {
+  margin-bottom: 15px;
+}
+.h3-news {
+  margin-bottom: 15px;
 }
