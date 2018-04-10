@@ -130,14 +130,16 @@
   margin: 15px;
   box-sizing: border-box;
 }
-.content-bottom-news {
-  width: 47%;
-  margin: 15px;
-  box-sizing: border-box;
+.content-top-news .basic-button {
+  margin-left: 0px;
+}
+.content-bottom-news .content-top-news .basic-button {
+  margin-left: 0px;
 }
 .hr {
-  color: lightgrey;
   background-color: lightgrey;
+  height: 1px;
+  border: none;
 }
 .h2-news {
   margin-bottom: 15px;
@@ -173,6 +175,9 @@
   align-items: center;
   border-radius: 3px;
 }
+.clients-btn-box .basic-button {
+  margin-left: 15px;
+}
 .clients-photo {
   display: flex;
   justify-content: space-around;
@@ -182,4 +187,44 @@
 .clients-photo-img {
   width: 100px;
   height: 50px;
+}
+.advantages {
+  width: 960px;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.advantages-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.advantage-sample {
+  display: flex;
+}
+.img-sample {
+  width: 40px;
+  height: 40px;
+  margin: 0px 15px;
+}
+.row-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px;
+}
+.row-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px;
+}
+.advtg-smpl-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
+}
+.advtg-smpl-content .text-h3 {
+  margin-top: -4px;
+  margin-bottom: 10px;
 }
