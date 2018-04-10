@@ -148,7 +148,15 @@
 .content-top-news .basic-button {
   margin-left: 0px;
 }
-.content-bottom-news .content-top-news .basic-button {
+.content-bottom-news {
+  width: 47%;
+  margin: 15px;
+  box-sizing: border-box;
+}
+.content-bottom-news .basic-button {
+  margin-left: 0px;
+}
+.content-bottom-news .basic-button {
   margin-left: 0px;
 }
 .hr {
