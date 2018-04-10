@@ -19,6 +19,21 @@
   border-bottom: none;
   box-sizing: border-box;
 }
+.main-nav .logo-button {
+  display: block;
+  text-decoration: none;
+  color: #696969;
+  box-sizing: border-box;
+  padding: 11px 10px;
+  font-size: 14px;
+  padding-top: 8px;
+  vertical-align: middle;
+}
+.main-nav .logo-button:hover {
+  border: 1px solid lightgrey;
+  border-bottom: none;
+  box-sizing: border-box;
+}
 .main-nav .first-button {
   font-size: 16px;
   padding: 9px;
